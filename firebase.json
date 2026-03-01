@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "srm-real-estates",
+          "appId": "1:951872605407:android:5f2ba9fcada63d8ab1ed6a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "srm-real-estates",
+          "configurations": {
+            "android": "1:951872605407:android:5f2ba9fcada63d8ab1ed6a",
+            "web": "1:951872605407:web:ef1859e78297c1e3b1ed6a"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "firestore": {
+    "rules": "firestore.rules"
+  }
+}

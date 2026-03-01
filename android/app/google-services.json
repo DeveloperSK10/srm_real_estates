@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "951872605407",
+    "project_id": "srm-real-estates",
+    "storage_bucket": "srm-real-estates.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951872605407:android:5f2ba9fcada63d8ab1ed6a",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcKW52-AUgdc30_4nn95VbZWLN-gtdQ-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951872605407:android:d29b58e33e08764cb1ed6a",
+        "android_client_info": {
+          "package_name": "com.example.srm_real_estates"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcKW52-AUgdc30_4nn95VbZWLN-gtdQ-g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
